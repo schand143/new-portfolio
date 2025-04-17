@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelor Degree in Computer Science and Engineering",
+    duration: "2014 - 2018",
+    institution: "Savitribai Phule Pune University",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Diploma in Information Technology",
+    duration: "2011 - 2014",
+    institution: "Maharashtra State Board of Technical Education",
   },
   {
     id: 3,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "2001 - 2010",
+    institution: "Shree Sant Sadguru Vidyalaya, Ujana",
   }
 ]
