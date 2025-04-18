@@ -9,24 +9,37 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 async function getData() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
+  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
 
   if (!res.ok) {
-    throw new Error('Failed to fetch data')
+    throw new Error("Failed to fetch data");
   }
 
   const data = await res.json();
 
-  const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
+  // Filter and sanitize blog entries
+  const filtered = data
+    .filter((item) => item?.cover_image) // Only keep blogs with cover_image
+    .map((item) => ({
+      title: item.title || "Untitled",
+      description: item.description || "",
+      url: item.url || "#",
+      cover_image: item.cover_image,
+      published_at: item.published_at || "",
+      tags: item.tags || [],
+      id: item.id || item.slug || Math.random().toString(36).substr(2, 9),
+    }))
+    .sort(() => Math.random() - 0.5);
 
   return filtered;
-};
+}
+
 
 export default async function Home() {
   const blogs = await getData();
 
   return (
-    <div suppressHydrationWarning >
+    <div suppressHydrationWarning>
       <HeroSection />
       <AboutSection />
       <Experience />
@@ -36,5 +49,5 @@ export default async function Home() {
       <Blog blogs={blogs} />
       <ContactSection />
     </div>
-  )
-};
+  );
+}
