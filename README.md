@@ -161,7 +161,7 @@ export const personalData = {
   X: "https://x.com/Schand143",
   stackOverflow: "https://stackoverflow.com/users/9256603/chand-shaikh",
   leetcode: "https://leetcode.com/chandshaikh/",
-  devUsername: "chand123",
+  devUsername: "schand143",
   resume: "...",
 };
 ```
