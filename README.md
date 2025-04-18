@@ -71,9 +71,9 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```bash
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/new-portfolio.git
 
-cd developer-portfolio
+cd new-portfolio
 ```
 
 ### Install packages from the root directory
@@ -142,7 +142,7 @@ GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/schand143/new-portfolio/tree/main/utils/data).
 
 Eg:
 
@@ -156,11 +156,11 @@ export const personalData = {
   phone: "+91-982386191",
   address: "Pune, Maharashtra",
   github: "https://github.com/schand143/",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
+  facebook: "https://www.facebook.com/chand.shaikh/",
   linkedIn: "https://www.linkedin.com/in/chand143/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
+  X: "https://x.com/Schand143",
+  stackOverflow: "https://stackoverflow.com/users/9256603/chand-shaikh",
+  leetcode: "https://leetcode.com/chandshaikh/",
   devUsername: "chand123",
   resume: "...",
 };
