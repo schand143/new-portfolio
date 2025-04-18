@@ -156,7 +156,7 @@ export const personalData = {
   phone: "+91-982386191",
   address: "Pune, Maharashtra",
   github: "https://github.com/schand143/",
-  facebook: "https://www.facebook.com/chand.shaikh/",
+  facebook: "https://www.facebook.com/schand143",
   linkedIn: "https://www.linkedin.com/in/chand143/",
   X: "https://x.com/Schand143",
   stackOverflow: "https://stackoverflow.com/users/9256603/chand-shaikh",
