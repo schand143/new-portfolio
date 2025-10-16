@@ -1,7 +1,7 @@
 export const personalData = {
   name: "CHAND SHAIKH",
   profile: '/profile.png',
-  designation: "Sr. Application Developer",
+  designation: "Senior SDE @AMETEK ( Sitecore XM Cloud )",
   description: "Hi, I'm Chand Shaikh — a passionate and results-driven Frontend Developer. I'm an enthusiastic programmer with a strong self-learning mindset and a love for exploring new technologies. My core expertise lies in JavaScript and its powerful ecosystem, including React, Next.js, and Angular. I thrive on building engaging, user-friendly web applications and am deeply committed to making the web more open, accessible, and innovative. Always eager to tackle new challenges, I’m excited to collaborate on projects that push boundaries and drive meaningful impact.",
   email: 'shaikhchand724@gmail.com',
   phone: '+91-9823806191',

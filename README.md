@@ -150,7 +150,7 @@ Eg:
 export const personalData = {
   name: "CHAND SHAIKH",
   profile: "/profile.png",
-  designation: "Sr. Application Developer",
+  designation: "Senior SDE @AMETEK ( Sitecore XM Cloud )",
   description: "My name is CHAND SHAIKH",
   email: "shaikhchand724@gmail.com",
   phone: "+91-982386191",
